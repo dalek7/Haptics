@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PWorld - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kimsc\LOCALS~1\Temp\RSPBC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PWorld.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\work\PWorld\PWorld-Force\GLWnd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kimsc\LOCALS~1\Temp\RSPBC.tmp" 
+Creating temporary file "C:\DOCUME~1\kimsc\LOCALS~1\Temp\RSPBD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PWorld.pdb" /debug /machine:I386 /out:"../bin/PWorld.exe" /pdbtype:sept 
+".\Debug\GLWnd.obj"
+".\Debug\MainFrm.obj"
+".\Debug\PWorld.obj"
+".\Debug\PWorldDoc.obj"
+".\Debug\PWorldView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ddGL.obj"
+".\Debug\ProcHaptics.obj"
+".\Debug\vwCamera.obj"
+".\Debug\vwLight.obj"
+".\Debug\vwO.obj"
+".\Debug\CMDEdit.obj"
+".\Debug\ddEdit.obj"
+".\Debug\ddStatic.obj"
+".\Debug\dhMat.obj"
+".\Debug\dhVector.obj"
+".\Debug\Elapsed.obj"
+".\Debug\ExpUtil.obj"
+".\Debug\GTimer.obj"
+".\Debug\PWorld.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\kimsc\LOCALS~1\Temp\RSPBD.tmp"
+<h3>Output Window</h3>
+Compiling...
+GLWnd.cpp
+c:\program files\sensable\3dtouch\include\hd\hddefines.h(182) : warning C4068: unknown pragma
+c:\program files\sensable\3dtouch\include\hd\hddefines.h(193) : warning C4068: unknown pragma
+c:\program files\sensable\3dtouch\include\hd\hddefines.h(200) : warning C4068: unknown pragma
+c:\program files\sensable\3dtouch\include\hd\hddefines.h(208) : warning C4068: unknown pragma
+Linking...
+
+
+
+<h3>Results</h3>
+PWorld.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
